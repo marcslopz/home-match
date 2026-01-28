@@ -19,6 +19,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
 ]
 
 dependencies = [
@@ -31,7 +32,6 @@ dependencies = [
 dev = [
     "pytest>=7.4.0",
     "pytest-cov>=4.1.0",
-    "black>=23.7.0",
     "ruff>=0.0.286",
     "mypy>=1.5.0",
 ]
@@ -40,13 +40,13 @@ dev = [
 where = ["."]
 include = ["home_match*"]
 
-[tool.black]
-line-length = 100
-target-version = ["py39", "py310", "py311", "py312"]
-
 [tool.ruff]
 line-length = 100
 target-version = "py39"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
