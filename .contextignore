@@ -1,0 +1,91 @@
+# Dependencias y paquetes
+node_modules/
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+vendor/
+
+# Archivos de compilación y builds
+*.so
+*.dylib
+*.dll
+*.class
+*.o
+*.a
+target/
+bin/
+obj/
+
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Control de versiones
+.git/
+.svn/
+.hg/
+
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+logs/
+tmp/
+temp/
+
+# Archivos de test y coverage
+coverage/
+.coverage
+.pytest_cache/
+.tox/
+htmlcov/
+.nyc_output/
+
+# Archivos de configuración sensibles
+.env
+.env.local
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Media y binarios grandes
+*.mp4
+*.mov
+*.avi
+*.pdf
+*.zip
+*.tar.gz
+*.rar
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.ico
+*.svg
+*.woff
+*.woff2
+*.ttf
+*.eot
+
+# Documentación generada
+docs/_build/
+site/
+_site/
+
+# Cache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
